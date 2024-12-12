@@ -45,7 +45,7 @@ public class ClonaConteudo {
             if (href != null) {
                 String linkLocal = "./capítulo-" + (contaArquivos + 1) + ".html";
                 paginaFonte = paginaFonte.replace(href, linkLocal);
-                url = href; //para a prox pag
+                url = href;
             }
         } catch (Exception e) {
             System.out.println("Botão 'Próximo' não encontrado: " + e);
